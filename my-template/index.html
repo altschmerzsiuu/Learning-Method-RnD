@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>explay. - Media Pembelajaran Interaktif</title>
+  <meta name="description" content="explay. - Media Pembelajaran Interaktif Teks Eksposisi untuk SMP Kelas VIII">
+  
+  <!-- Favicon - PUT YOUR FAVICON HERE -->
+  <link rel="icon" type="image/png" href="">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- ===== SPLASH SCREEN ===== -->
+  <div class="splash" id="splash">
+    <div class="splash__logo typewriter">explay.</div>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <!-- Logo -->
+    <a href="index.html" class="logo">
+      <img src="assets/images/UNIBA LOGO.png" alt="xplay" class="logo__image">
+      <span>explay.</span>
+    </a>
+
+    <!-- Desktop Navigation -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a href="index.html" class="nav__link active">Home</a></li>
+        <li><a href="materi.html" class="nav__link">Materi</a></li>
+        <li><a href="latihan.html" class="nav__link">Latihan</a></li>
+        <li><a href="game.html" class="nav__link">Game</a></li>
+        <li><a href="tutorial.html" class="nav__link">Tutorial</a></li>
+      </ul>
+    </nav>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+      <span class="menu-toggle__bar"></span>
+      <span class="menu-toggle__bar"></span>
+      <span class="menu-toggle__bar"></span>
+    </button>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="mobile-menu__link">Home</a>
+    <a href="materi.html" class="mobile-menu__link">Materi</a>
+    <a href="latihan.html" class="mobile-menu__link">Latihan</a>
+    <a href="game.html" class="mobile-menu__link">Game</a>
+    <a href="tutorial.html" class="mobile-menu__link">Tutorial</a>
+  </div>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="page">
+    
+    <!-- Hero Section -->
+    <section class="home__hero">
+      <!-- 
+        ================================================
+        INTERACTIVE ELEMENTS - PUT YOUR IMAGES HERE
+        These elements can rotate/move when clicked
+        Similar to the egg in wearebreakfast.com
+        ================================================
+      -->
+      <div class="home__interactive">
+        <!-- 
+          Example interactive item:
+          <div class="home__interactive-item" style="top: 15%; left: 10%;">
+            <img src="assets/images/element-1.png" alt="">
+          </div>
+        -->
+      </div>
+
+      <div class="home__hero-content">
+        <p class="animate-fadeInDown" style="opacity: 1; font-size: var(--text-base); color: var(--color-text-medium); margin-bottom: var(--space-sm);">
+          Selamat Datang di
+        </p>
+        <h1 class="home__title animate-fadeInUp delay-200" style="opacity: 1;">
+          explay.
+        </h1>
+        <p class="home__subtitle animate-fadeInUp delay-300" style="opacity: 1;">
+          Media Pembelajaran Interaktif Teks Eksposisi<br>
+          jenjang SMP Kelas VIII
+        </p>
+        <div class="home__hero-buttons animate-fadeIn delay-500" style="opacity: 1;">
+          <a href="materi.html" class="btn btn--primary">
+            Mulai Belajar
+          </a>
+          <a href="opening.html" class="btn btn--outline btn--custom-text">
+            <span>TENTANG</span>
+            <span>explay.</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- Section Cards -->
+    <section class="section" style="background: var(--bg-soft);">
+      <div class="container">
+        <h2 class="page-section__title text-center mb-xl">
+          Apa yang bisa kamu lakukan?
+        </h2>
+        
+        <div class="home__sections">
+          <!-- Materi Card -->
+          <div class="home__section-card scroll-animate">
+            <div class="home__section-card__icon"><i class="fa-solid fa-book"></i></div>
+            <h3 class="home__section-card__title">Materi</h3>
+            <p class="home__section-card__text">
+              Pelajari definisi, struktur, dan ciri-ciri teks eksposisi 
+              dengan cara yang mudah dipahami.
+            </p>
+            <a href="materi.html" class="btn btn--primary btn--sm">
+              Buka Materi
+            </a>
+          </div>
+
+          <!-- Latihan Card -->
+          <div class="home__section-card scroll-animate">
+            <div class="home__section-card__icon"><i class="fa-solid fa-pen-to-square"></i></div>
+            <h3 class="home__section-card__title">Latihan</h3>
+            <p class="home__section-card__text">
+              Uji pemahamanmu dengan soal-soal pilihan ganda 
+              dan dapatkan nilai langsung!
+            </p>
+            <a href="latihan.html" class="btn btn--secondary btn--sm">
+              Kerjakan Latihan
+            </a>
+          </div>
+
+          <!-- Game Card -->
+          <div class="home__section-card scroll-animate">
+            <div class="home__section-card__icon"><i class="fa-solid fa-gamepad"></i></div>
+            <h3 class="home__section-card__title">Game</h3>
+            <p class="home__section-card__text">
+              Bermain Tic Tac Toe bersama teman sambil 
+              menjawab pertanyaan seru!
+            </p>
+            <a href="game.html" class="btn btn--primary btn--sm">
+              Main Game
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- How to Learn -->
+    <section class="section" style="background: var(--bg-light);">
+      <div class="container text-center">
+        <h2 class="page-section__title mb-xl">
+          Cara Belajar di explay.
+        </h2>
+        
+        <div class="opening__steps">
+          <div class="opening__step scroll-animate">
+            <div class="opening__step-number">1</div>
+            <h3 class="opening__step-title">Pelajari Materi</h3>
+            <p class="opening__step-text">
+              Baca dan pahami materi teks eksposisi
+            </p>
+          </div>
+          <div class="opening__step scroll-animate">
+            <div class="opening__step-number">2</div>
+            <h3 class="opening__step-title">Kerjakan Latihan</h3>
+            <p class="opening__step-text">
+              Jawab soal untuk menguji pemahaman
+            </p>
+          </div>
+          <div class="opening__step scroll-animate">
+            <div class="opening__step-number">3</div>
+            <h3 class="opening__step-title">Mainkan Game</h3>
+            <p class="opening__step-text">
+              Belajar sambil bermain bersama teman
+            </p>
+          </div>
+          <div class="opening__step scroll-animate">
+            <div class="opening__step-number">4</div>
+            <h3 class="opening__step-title">Lorem Ipsum</h3>
+            <p class="opening__step-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__logo">explay.</div>
+    <nav class="footer__nav">
+      <a href="index.html" class="footer__link">Home</a>
+      <a href="materi.html" class="footer__link">Materi</a>
+      <a href="latihan.html" class="footer__link">Latihan</a>
+      <a href="game.html" class="footer__link">Game</a>
+      <a href="tutorial.html" class="footer__link">Tutorial</a>
+    </nav>
+    <p class="footer__text">
+      Media Pembelajaran Teks Eksposisi untuk SMP Kelas VIII<br>
+      © 2025 explay.
+    </p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
