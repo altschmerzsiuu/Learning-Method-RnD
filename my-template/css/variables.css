@@ -1,0 +1,100 @@
+/* ============================================
+   CSS Variables - xplay Design System
+   ============================================ */
+
+:root {
+  /* ===== Primary Colors - Pastel Palette ===== */
+  --color-primary: #FFB5C5;          /* Pink Pastel */
+  --color-secondary: #87CEEB;        /* Sky Blue */
+  --color-accent: #E8B4CB;           /* Rose Pink (blend) */
+  
+  /* ===== Background Variants ===== */
+  --bg-light: #FFF5F7;               /* Very light pink */
+  --bg-soft: #F0F8FF;                /* Alice blue - soft */
+  --bg-cream: #FFFAF0;               /* Cream white */
+  
+  /* ===== Text Colors ===== */
+  --color-text-dark: #2D3436;        /* Almost black */
+  --color-text-medium: #636E72;      /* Gray */
+  --color-text-light: #B2BEC3;       /* Light gray */
+  
+  /* ===== UI Colors ===== */
+  --color-success: #00B894;          /* Green */
+  --color-error: #FF7675;            /* Soft red */
+  --color-warning: #FDCB6E;          /* Yellow */
+  
+  /* ===== Neutral Colors ===== */
+  --color-white: #FFFFFF;
+  --color-black: #1A1A2E;            /* Dark navy */
+  
+  /* ===== Gradients ===== */
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  --gradient-soft: linear-gradient(180deg, var(--bg-light) 0%, var(--bg-soft) 100%);
+  
+  /* ===== Typography ===== */
+  --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Fira Code', monospace;
+  
+  /* ===== Font Sizes (Mobile First) ===== */
+  --text-xs: 1.2rem;
+  --text-sm: 1.4rem;
+  --text-base: 1.6rem;
+  --text-lg: 1.8rem;
+  --text-xl: 2rem;
+  --text-2xl: 2.4rem;
+  --text-3xl: 3rem;
+  --text-4xl: 3.6rem;
+  --text-5xl: 4.8rem;
+  --text-6xl: 6rem;
+  
+  /* ===== Font Weights ===== */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  
+  /* ===== Spacing ===== */
+  --space-xs: 0.4rem;
+  --space-sm: 0.8rem;
+  --space-md: 1.6rem;
+  --space-lg: 2.4rem;
+  --space-xl: 3.2rem;
+  --space-2xl: 4.8rem;
+  --space-3xl: 6.4rem;
+  --space-4xl: 9.6rem;
+  
+  /* ===== Border Radius ===== */
+  --radius-sm: 0.4rem;
+  --radius-md: 0.8rem;
+  --radius-lg: 1.2rem;
+  --radius-xl: 1.6rem;
+  --radius-full: 9999px;
+  
+  /* ===== Shadows ===== */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 50px rgba(0, 0, 0, 0.15);
+  --shadow-glow: 0 0 20px rgba(135, 206, 235, 0.3);
+  
+  /* ===== Transitions ===== */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms ease;
+  --transition-smooth: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* ===== Z-Index ===== */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+  --z-splash: 1000;
+  
+  /* ===== Layout ===== */
+  --header-height: 7rem;
+  --container-max: 120rem;
+  --container-narrow: 80rem;
+}
