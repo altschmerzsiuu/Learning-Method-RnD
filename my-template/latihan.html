@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Latihan Soal - explay.</title>
+  <meta name="description" content="Latihan Soal Teks Eksposisi - Uji Pemahamanmu!">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <a href="index.html" class="logo">
+      <img src="assets/images/UNIBA LOGO.png" alt="xplay" class="logo__image">
+      <span>explay.</span>
+    </a>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="materi.html" class="nav__link">Materi</a></li>
+        <li><a href="latihan.html" class="nav__link active">Latihan</a></li>
+        <li><a href="game.html" class="nav__link">Game</a></li>
+        <li><a href="tutorial.html" class="nav__link">Tutorial</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+      <span class="menu-toggle__bar"></span>
+      <span class="menu-toggle__bar"></span>
+      <span class="menu-toggle__bar"></span>
+    </button>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="mobile-menu__link">Home</a>
+    <a href="materi.html" class="mobile-menu__link">Materi</a>
+    <a href="latihan.html" class="mobile-menu__link">Latihan</a>
+    <a href="game.html" class="mobile-menu__link">Game</a>
+    <a href="tutorial.html" class="mobile-menu__link">Tutorial</a>
+  </div>
+
+  <!-- Main Content -->
+  <main class="latihan page">
+    
+    <!-- Header -->
+    <div class="latihan__header">
+      <h1 class="latihan__title"><i class="fa-solid fa-pen-nib"></i> Latihan Soal</h1>
+      <p class="latihan__subtitle">Uji pemahamanmu tentang Teks Eksposisi</p>
+    </div>
+
+    <!-- Student Form -->
+    <form class="latihan__form" id="studentForm">
+      <h2 class="latihan__form-title">Data Siswa</h2>
+      
+      <div class="form-group">
+        <label class="form-label" for="nama">Nama Lengkap</label>
+        <input type="text" class="form-input" id="nama" placeholder="Masukkan nama lengkap" required>
+      </div>
+      
+      <div class="form-group">
+        <label class="form-label" for="kelas">Kelas</label>
+        <input type="text" class="form-input" id="kelas" placeholder="Contoh: 8A" required>
+      </div>
+      
+      <div class="form-group">
+        <label class="form-label" for="sekolah">Nama Sekolah</label>
+        <input type="text" class="form-input" id="sekolah" placeholder="Masukkan nama sekolah" required>
+      </div>
+      
+      <button type="submit" class="btn btn--primary" style="width: 100%;">
+        Mulai Latihan
+      </button>
+    </form>
+
+    <!-- Questions Container (Hidden until form submitted) -->
+    <div class="latihan__questions" id="questionsContainer" style="display: none;">
+      
+      <!-- Dynamic Questions Wrapper - Questions will be loaded here -->
+      <div id="questionsWrapper">
+        <!-- Questions will be rendered by JavaScript -->
+      </div>
+
+      <!-- Submit Button -->
+      <div class="text-center mt-xl">
+        <button class="btn btn--primary btn--lg" id="submitQuiz">
+          Selesai &amp; Lihat Nilai
+        </button>
+      </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+      <div class="loading-content">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Memuat soal...</p>
+      </div>
+    </div>
+
+    <!-- Result (Hidden until submitted) -->
+    <div class="latihan__result" id="resultContainer">
+      <h2 style="font-size: var(--text-2xl); margin-bottom: var(--space-md);">
+        Hasil Latihan
+      </h2>
+      <p class="latihan__result-name" id="resultName">-</p>
+      <div class="latihan__result-score" id="resultScore">0</div>
+      <p style="font-size: var(--text-base); color: var(--color-text-medium); margin-bottom: var(--space-md);" id="resultCorrect">
+        0 dari 0 soal benar
+      </p>
+      <p style="font-size: var(--text-lg); color: var(--color-text-medium);" id="resultMessage">
+        Terus belajar ya!
+      </p>
+      <div class="flex-center gap-md mt-xl" style="flex-wrap: wrap;">
+        <button class="btn btn--outline" id="retryBtn">
+          Ulangi Latihan
+        </button>
+        <a href="game.html" class="btn btn--primary">
+          Mainkan Game
+        </a>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="flex-center gap-md mt-xl" style="flex-wrap: wrap;">
+      <a href="materi.html" class="btn btn--ghost">
+        ← Kembali ke Materi
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__logo">explay.</div>
+    <nav class="footer__nav">
+      <a href="index.html" class="footer__link">Home</a>
+      <a href="materi.html" class="footer__link">Materi</a>
+      <a href="latihan.html" class="footer__link">Latihan</a>
+      <a href="game.html" class="footer__link">Game</a>
+      <a href="tutorial.html" class="footer__link">Tutorial</a>
+    </nav>
+    <p class="footer__text">© 2025 explay.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/latihan.js"></script>
+</body>
+</html>
