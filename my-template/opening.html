@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Tentang explay. - Media Pembelajaran Interaktif</title>
+  <meta name="description" content="Tentang explay. - Mengapa explay. dibuat dan bagaimana cara belajarnya">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <a href="index.html" class="logo">
+      <img src="assets/images/UNIBA LOGO.png" alt="explay." class="logo__image">
+      <span>explay.</span>
+    </a>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="materi.html" class="nav__link">Materi</a></li>
+        <li><a href="latihan.html" class="nav__link">Latihan</a></li>
+        <li><a href="game.html" class="nav__link">Game</a></li>
+        <li><a href="tutorial.html" class="nav__link">Tutorial</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+      <span class="menu-toggle__bar"></span>
+      <span class="menu-toggle__bar"></span>
+      <span class="menu-toggle__bar"></span>
+    </button>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="mobile-menu__link">Home</a>
+    <a href="materi.html" class="mobile-menu__link">Materi</a>
+    <a href="latihan.html" class="mobile-menu__link">Latihan</a>
+    <a href="game.html" class="mobile-menu__link">Game</a>
+    <a href="tutorial.html" class="mobile-menu__link">Tutorial</a>
+  </div>
+
+  <!-- Main Content -->
+  <main class="opening page">
+    
+    <!-- Hero Section with Dial Background Controller -->
+    <section class="opening__hero" id="openingHero">
+      <!-- Background Image Container (scrollable via dial) -->
+      <div class="opening__bg-container" id="bgContainer">
+        <img src="assets/images/backgroundIndex.jpg" alt="Background" class="opening__bg-image" id="bgImage">
+      </div>
+      
+      <!-- Content Overlay -->
+      <div class="opening__hero-content">
+        <h1 class="opening__brand animate-fadeInUp" style="opacity: 1;">xplay</h1>
+        <p class="opening__tagline animate-fadeInUp delay-200" style="opacity: 1;">
+          Belajar Teks Eksposisi Jadi Seru!
+        </p>
+        <a href="#about" id="btn-explore" class="btn btn--primary animate-fadeIn delay-400" style="opacity: 1;">
+          Kenali xplay
+        </a>
+      </div>
+      
+      <!-- Dial Controller (Right Side) -->
+      <div class="dial-controller" id="dialController">
+        <img src="assets/images/dial-gold.png" alt="Dial" class="dial-controller__image" id="dialImage">
+        <p class="dial-controller__hint">Putar untuk menjelajah</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="opening__section" id="about">
+      <div class="container container--narrow text-center">
+        <h2 class="opening__section-title scroll-animate">Apa itu xplay?</h2>
+        <p class="scroll-animate" style="font-size: var(--text-lg); color: var(--color-text-medium); line-height: 1.8; margin-bottom: var(--space-lg);">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+        </p>
+        <p class="scroll-animate" style="font-size: var(--text-lg); color: var(--color-text-medium); line-height: 1.8;">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse 
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+          cupidatat non proident.
+        </p>
+      </div>
+    </section>
+
+    <!-- Why Section -->
+    <section class="opening__section">
+      <div class="container text-center">
+        <h2 class="opening__section-title scroll-animate">Kenapa xplay?</h2>
+        <div class="opening__features">
+          <div class="card scroll-animate">
+            <div class="card__icon"><i class="fa-solid fa-gamepad"></i></div>
+            <h3 class="card__title">Belajar Sambil Bermain</h3>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.
+            </p>
+          </div>
+          <div class="card scroll-animate">
+            <div class="card__icon"><i class="fa-solid fa-book"></i></div>
+            <h3 class="card__title">Materi Lengkap</h3>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.
+            </p>
+          </div>
+          <div class="card scroll-animate">
+            <div class="card__icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+            <h3 class="card__title">Interaktif & Menyenangkan</h3>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How Section -->
+    <section class="opening__section">
+      <div class="container text-center">
+        <h2 class="opening__section-title scroll-animate">Bagaimana Cara Belajarnya?</h2>
+        <div class="opening__steps">
+          <div class="opening__step scroll-animate">
+            <div class="opening__step-number">1</div>
+            <h3 class="opening__step-title">Pelajari Materi</h3>
+            <p class="opening__step-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="opening__step scroll-animate">
+            <div class="opening__step-number">2</div>
+            <h3 class="opening__step-title">Kerjakan Latihan</h3>
+            <p class="opening__step-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="opening__step scroll-animate">
+            <div class="opening__step-number">3</div>
+            <h3 class="opening__step-title">Mainkan Game</h3>
+            <p class="opening__step-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="opening__step scroll-animate">
+            <div class="opening__step-number">4</div>
+            <h3 class="opening__step-title">Jadi Juara!</h3>
+            <p class="opening__step-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="opening__section" style="background: var(--gradient-primary);">
+      <div class="container text-center">
+        <h2 class="opening__section-title scroll-animate">Siap untuk Belajar?</h2>
+        <p class="scroll-animate" style="font-size: var(--text-lg); margin-bottom: var(--space-xl);">
+          Yuk mulai petualangan belajar Teks Eksposisi bersama xplay!
+        </p>
+        <a href="index.html" class="btn btn--outline scroll-animate">
+          Mulai Sekarang →
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__logo">xplay</div>
+    <nav class="footer__nav">
+      <a href="index.html" class="footer__link">Home</a>
+      <a href="materi.html" class="footer__link">Materi</a>
+      <a href="latihan.html" class="footer__link">Latihan</a>
+      <a href="game.html" class="footer__link">Game</a>
+      <a href="tutorial.html" class="footer__link">Tutorial</a>
+    </nav>
+    <p class="footer__text">© 2025 xplay</p>
+  </footer>
+
+  <script src="js/dial-controller.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
