@@ -1,0 +1,215 @@
+/* ============================================
+   Responsive - Education Template
+   ============================================ */
+
+/* ===== Extra Small Devices (Phones, less than 576px) ===== */
+@media (max-width: 575.98px) {
+    .hero__title {
+        font-size: var(--text-3xl);
+    }
+
+    .section-title {
+        font-size: var(--text-2xl);
+    }
+
+    .section-title br {
+        display: none;
+    }
+
+    .wave-section__content {
+        max-width: 95vw;
+    }
+
+    .wave-content-text {
+        font-size: var(--text-base);
+    }
+
+    .wave-content-text br {
+        display: none;
+    }
+
+    .content-section__text {
+        max-width: 95vw;
+    }
+
+    .animated-text__item {
+        font-size: var(--text-2xl);
+    }
+
+    .sticker {
+        width: 12rem;
+    }
+
+    .hero__collage__item {
+        display: none;
+    }
+}
+
+/* ===== Small Devices (Landscape phones, 576px and up) ===== */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero__title {
+        font-size: var(--text-4xl);
+    }
+
+    .section-title {
+        font-size: var(--text-3xl);
+    }
+}
+
+/* ===== Medium Devices (Tablets, 768px and up) ===== */
+@media (min-width: 768px) {
+    .header {
+        padding: var(--spacing-md) var(--spacing-xl);
+    }
+
+    .hero__content {
+        max-width: 80vw;
+    }
+
+    .footer__main {
+        grid-template-columns: auto 1fr auto;
+        text-align: left;
+        justify-items: start;
+    }
+
+    .footer__info {
+        grid-template-columns: repeat(3, auto);
+        gap: var(--spacing-xl);
+    }
+
+    .footer__bottom {
+        grid-template-columns: 1fr auto;
+        align-items: center;
+    }
+}
+
+/* ===== Large Devices (Desktops, 992px and up) ===== */
+@media (min-width: 992px) {
+    .hero__title {
+        font-size: var(--text-6xl);
+    }
+
+    .content-section__text {
+        max-width: 50vw;
+    }
+
+    .hero__collage__item--1 {
+        width: 12vw;
+    }
+
+    .hero__collage__item--2 {
+        width: 10vw;
+    }
+
+    .hero__collage__item--3 {
+        width: 15vw;
+    }
+
+    .hero__collage__item--4 {
+        width: 18vw;
+    }
+}
+
+/* ===== Extra Large Devices (Large desktops, 1200px and up) ===== */
+@media (min-width: 1200px) {
+    .hero__title {
+        font-size: var(--text-7xl);
+    }
+
+    .wave-content-text {
+        font-size: var(--text-3xl);
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+}
+
+/* ===== XXL Devices (1440px and up) ===== */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    .hero__content {
+        max-width: 70vw;
+    }
+}
+
+/* ===== Ultra Wide (1660px and up) ===== */
+@media (min-width: 1660px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+/* ===== 4K Screens (1800px and up) ===== */
+@media (min-width: 1800px) {
+    html {
+        font-size: 75%;
+    }
+
+    .container {
+        max-width: 1600px;
+    }
+}
+
+/* ===== Print Styles ===== */
+@media print {
+
+    .header,
+    .footer,
+    .preloader,
+    .ticker,
+    .hero__collage {
+        display: none !important;
+    }
+
+    body {
+        color: #000;
+        background: #fff;
+    }
+
+    .hero {
+        min-height: auto;
+        background: none !important;
+    }
+}
+
+/* ===== Reduced Motion ===== */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .ticker__wrapper {
+        animation: none;
+    }
+}
+
+/* ===== Dark Mode Support (Optional) ===== */
+@media (prefers-color-scheme: dark) {
+    /* Uncomment to enable dark mode support */
+    /*
+  :root {
+    --color-black: #ffffff;
+    --color-white: #121212;
+  }
+  */
+}
+
+/* ===== High Contrast Mode ===== */
+@media (prefers-contrast: high) {
+    .btn--primary {
+        border: 2px solid var(--color-black);
+    }
+
+    .header__nav__item a {
+        text-decoration: underline;
+    }
+}
