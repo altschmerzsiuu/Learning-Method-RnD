@@ -34,10 +34,13 @@ export default function TopBar({
             <ArrowLeft size={20} strokeWidth={1.5} className="text-ink" />
           </button>
         )}
-        {logo && !showBack && (
-          <span className="font-serif font-black text-[20px] text-ink italic leading-none">
-            explay<span className="text-primary-500">.</span>
-          </span>
+        {logo && (
+          <div className="flex items-center gap-2">
+            <img src="/logo-fkip.jpg" alt="Logo FKIP" className="h-8 w-auto object-contain" />
+            <span className="font-serif font-black text-lg text-ink italic leading-none">
+              explay<span className="text-primary-500">.</span>
+            </span>
+          </div>
         )}
       </div>
 

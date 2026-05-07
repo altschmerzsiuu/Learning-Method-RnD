@@ -3,14 +3,11 @@
 
 /* ============================================
    TAILWIND v4 THEME — EksposiLab Design System
-   Fresh Green Edition · Fraunces + Plus Jakarta Sans
    ============================================ */
 @theme {
-  /* --- Font Families --- */
   --font-serif: 'Fraunces', Georgia, serif;
   --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
 
-  /* --- Primary (Fresh Green) --- */
   --color-primary-50:  #F0FDF4;
   --color-primary-100: #DCFCE7;
   --color-primary-200: #BBF7D0;
@@ -20,39 +17,32 @@
   --color-primary-600: #16A34A;
   --color-primary-700: #15803D;
 
-  /* --- Accent (Warm Orange) --- */
   --color-accent:        #FB923C;
   --color-accent-light:  #FFF7ED;
   --color-accent-border: #FED7AA;
 
-  /* --- Info (Soft Blue) --- */
   --color-info:        #38BDF8;
   --color-info-light:  #F0F9FF;
   --color-info-border: #BAE6FD;
 
-  /* --- Status --- */
   --color-success: #22C55E;
   --color-warning: #F59E0B;
   --color-danger:  #F43F5E;
 
-  /* --- Surface (backgrounds) --- */
   --color-surface:       #FAFAF8;
   --color-surface-card:  #FFFFFF;
   --color-surface-muted: #F3F4F0;
   --color-surface-green: #F0FDF4;
 
-  /* --- Ink (text) --- */
   --color-ink:         #0F1A0F;
   --color-ink-muted:   #6B7280;
   --color-ink-faint:   #D1D5DB;
   --color-ink-inverse: #FFFFFF;
 
-  /* --- Border --- */
   --color-border:        #E5E7EB;
   --color-border-green:  #BBF7D0;
   --color-border-strong: #D1D5DB;
 
-  /* --- Border Radius --- */
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 16px;
@@ -82,7 +72,6 @@ body {
   min-height: 100dvh;
   margin: 0;
   padding: 0;
-  /* Center mobile view on desktop */
   display: flex;
   justify-content: center;
 }
@@ -96,7 +85,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Typography defaults */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
   color: var(--color-ink);
@@ -107,7 +95,6 @@ h1, h2, h3, h4, h5, h6 {
 p { margin: 0; }
 a { text-decoration: none; color: inherit; }
 
-/* Scrollbar hide utility */
 .scrollbar-hide::-webkit-scrollbar { display: none; }
 .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
 
@@ -167,8 +154,6 @@ a { text-decoration: none; color: inherit; }
 /* ============================================
    COMPONENT UTILITIES
    ============================================ */
-
-/* Card base */
 .card {
   background: var(--color-surface-card);
   border: 1px solid var(--color-border);
@@ -176,11 +161,8 @@ a { text-decoration: none; color: inherit; }
   padding: 16px;
   transition: border-color 150ms ease;
 }
-.card:hover {
-  border-color: var(--color-primary-500);
-}
+.card:hover { border-color: var(--color-primary-500); }
 
-/* Badge base */
 .badge {
   display: inline-flex;
   align-items: center;
@@ -200,7 +182,6 @@ a { text-decoration: none; color: inherit; }
 .badge-xp      { background: #FFF7ED; color: #EA580C; border-color: #FED7AA; }
 .badge-streak  { background: #FFF7ED; color: #EA580C; border-color: #FED7AA; }
 
-/* Struktur Teks palette */
 .struktur-tesis      { background: #F0FDF4; border-color: #BBF7D0; }
 .struktur-argumentasi{ background: #FFF7ED; border-color: #FED7AA; }
 .struktur-penegasan  { background: #EFF6FF; border-color: #BFDBFE; }
