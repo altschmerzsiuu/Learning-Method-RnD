@@ -1,0 +1,438 @@
+[
+  {
+    "topik_id": "pengenalan",
+    "soal": [
+      {
+        "id": "p1",
+        "pertanyaan": "Tujuan utama dari penulisan teks eksposisi adalah...",
+        "pilihan": [
+          "A. Meyakinkan kebenaran pendapat secara emosional",
+          "B. Memaparkan suatu informasi, pendapat, atau ide secara faktual",
+          "C. Mengajak pembaca melakukan sesuatu dengan paksaan",
+          "D. Menggambarkan sesuatu secara imajinatif"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Teks eksposisi bertujuan memaparkan informasi, pengetahuan, atau ide agar wawasan pembaca bertambah.",
+        "tingkat": "mudah"
+      },
+      {
+        "id": "p2",
+        "pertanyaan": "Sifat dari penulisan teks eksposisi yang paling tepat adalah...",
+        "pilihan": [
+          "A. Informatif dan logis",
+          "B. Imajinatif dan fiktif",
+          "C. Menghibur dan lucu",
+          "D. Merayu dan subjektif"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Teks eksposisi harus bersifat informatif (memberi informasi) dan logis (masuk akal/sesuai nalar).",
+        "tingkat": "mudah"
+      },
+      {
+        "id": "p3",
+        "pertanyaan": "Contoh teks eksposisi biasanya dapat kita temukan dengan mudah pada...",
+        "pilihan": [
+          "A. Cerpen",
+          "B. Koran",
+          "C. Puisi",
+          "D. Komik"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Koran (surat kabar) sering memuat teks eksposisi dalam bentuk berita, artikel opini, atau editorial.",
+        "tingkat": "sedang"
+      },
+      {
+        "id": "p4",
+        "pertanyaan": "Fakta dalam teks eksposisi memiliki fungsi utama sebagai...",
+        "pilihan": [
+          "A. Pelengkap agar teks terlihat panjang",
+          "B. Judul teks agar terlihat menarik",
+          "C. Memperkuat gagasan atau pendapat penulis",
+          "D. Sebagai hiasan dalam paragraf"
+        ],
+        "jawaban_benar": "C",
+        "penjelasan": "Fakta digunakan untuk mendukung dan memperkuat pendapat penulis agar lebih meyakinkan dan objektif.",
+        "tingkat": "sedang"
+      },
+      {
+        "id": "p5",
+        "pertanyaan": "Permasalahan yang diangkat dalam sebuah teks eksposisi wajib didukung oleh...",
+        "pilihan": [
+          "A. Imajinasi penulis",
+          "B. Data lengkap atau fakta",
+          "C. Cerita fiktif",
+          "D. Inisial tokoh"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Agar dapat dipercaya, permasalahan dalam eksposisi harus disertai data atau fakta yang nyata.",
+        "tingkat": "susah"
+      }
+    ]
+  },
+  {
+    "topik_id": "struktur",
+    "soal": [
+      {
+        "id": "s1",
+        "pertanyaan": "Struktur baku teks eksposisi yang benar secara berurutan adalah...",
+        "pilihan": [
+          "A. Argumentasi dan simpulan",
+          "B. Tesis, Argumentasi, dan Penegasan ulang/Simpulan",
+          "C. Tesis dan argumentasi saja",
+          "D. Argumentasi, tesis, dan simpulan"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Urutan struktur eksposisi adalah Tesis (pembuka), Argumentasi (isi), dan Penegasan Ulang (penutup).",
+        "tingkat": "mudah"
+      },
+      {
+        "id": "s2",
+        "pertanyaan": "Bagian isi teks yang memaparkan alasan pendukung untuk memperkuat gagasan disebut...",
+        "pilihan": [
+          "A. Tesis (pertanyaan umum)",
+          "B. Simpulan",
+          "C. Argumentasi",
+          "D. Pembuka"
+        ],
+        "jawaban_benar": "C",
+        "penjelasan": "Argumentasi adalah bagian yang berisi fakta dan alasan untuk mendukung pendapat yang ada di bagian tesis.",
+        "tingkat": "mudah"
+      },
+      {
+        "id": "s3",
+        "pertanyaan": "Bagian pembuka teks eksposisi yang menjelaskan pandangan umum penulis disebut...",
+        "pilihan": [
+          "A. Tesis",
+          "B. Argumentasi",
+          "C. Simpulan",
+          "D. Gagasan utama"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Tesis berisi pernyataan pendapat atau pandangan umum penulis terhadap topik yang dibahas.",
+        "tingkat": "sedang"
+      },
+      {
+        "id": "s4",
+        "pertanyaan": "Apa yang dimaksud dengan kalimat utama dalam sebuah paragraf eksposisi?",
+        "pilihan": [
+          "A. Kalimat yang berisi ide pokok paragraf",
+          "B. Kalimat penjelas di akhir",
+          "C. Kalimat tambahan yang tidak penting",
+          "D. Kalimat tanya untuk pembaca"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Kalimat utama adalah kalimat yang mengandung gagasan utama atau ide pokok dari paragraf tersebut.",
+        "tingkat": "sedang"
+      },
+      {
+        "id": "s5",
+        "pertanyaan": "Dalam teks eksposisi, bagian yang merangkum kembali pendapat penulis berdasarkan fakta-fakta yang telah dipaparkan adalah...",
+        "pilihan": [
+          "A. Tesis",
+          "B. Argumentasi",
+          "C. Penegasan Ulang",
+          "D. Judul"
+        ],
+        "jawaban_benar": "C",
+        "penjelasan": "Penegasan ulang berfungsi sebagai simpulan yang menegaskan kembali tesis setelah didukung oleh argumentasi.",
+        "tingkat": "susah"
+      }
+    ]
+  },
+  {
+    "topik_id": "kebahasaan",
+    "soal": [
+      {
+        "id": "k1",
+        "context": "Penggunaan gadget secara berlebihan dapat mengganggu kesehatan mata sehingga siswa menjadi cepat lelah saat belajar.",
+        "pertanyaan": "Kata 'sehingga' pada kalimat tersebut berfungsi sebagai...",
+        "pilihan": [
+          "A. Penambahan",
+          "B. Pertentangan",
+          "C. Sebab-akibat",
+          "D. Perbandingan"
+        ],
+        "jawaban_benar": "C",
+        "penjelasan": "'Sehingga' menghubungkan suatu tindakan (sebab) dengan hasil yang terjadi (akibat).",
+        "tingkat": "mudah"
+      },
+      {
+        "id": "k2",
+        "context": "Polusi udara dapat menyebabkan gangguan kesehatan, namun masih banyak orang yang tidak peduli.",
+        "pertanyaan": "Kata 'namun' pada kalimat tersebut berfungsi sebagai...",
+        "pilihan": [
+          "A. Penambahan informasi",
+          "B. Sebab-akibat",
+          "C. Pertentangan",
+          "D. Perbandingan"
+        ],
+        "jawaban_benar": "C",
+        "penjelasan": "'Namun' adalah konjungsi antarkalimat yang digunakan untuk menyatakan pertentangan.",
+        "tingkat": "mudah"
+      },
+      {
+        "id": "k3",
+        "context": "(1) Olahraga itu sangat menyenangkan.\n(2) Olahraga dapat meningkatkan daya tahan tubuh.\n(3) Semua orang harus berolahraga setiap hari.",
+        "pertanyaan": "Manakah di antara kalimat di atas yang merupakan sebuah FAKTA?",
+        "pilihan": [
+          "A. Kalimat (1)",
+          "B. Kalimat (2)",
+          "C. Kalimat (3)",
+          "D. Kalimat (1) dan (3)"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Kalimat (2) dapat dibuktikan secara ilmiah (fakta), sedangkan (1) dan (3) bersifat perasaan atau ajakan (opini).",
+        "tingkat": "sedang"
+      },
+      {
+        "id": "k4",
+        "context": "Oleh karena itu, kita harus menjaga kebersihan lingkungan agar tetap sehat.",
+        "pertanyaan": "Kalimat tersebut termasuk unsur kebahasaan...",
+        "pilihan": [
+          "A. Kalimat perintah/persuasif",
+          "B. Kalimat tanya",
+          "C. Kalimat fakta",
+          "D. Kalimat deskripsi"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Kalimat ini mengandung ajakan atau saran agar pembaca melakukan sesuatu (persuasif).",
+        "tingkat": "sedang"
+      },
+      {
+        "id": "k5",
+        "context": "Sampah yang menumpuk dapat menyebabkan banjir karena saluran air tersumbat.",
+        "pertanyaan": "Kata 'karena' dalam kalimat tersebut menunjukkan hubungan...",
+        "pilihan": [
+          "A. Pertentangan",
+          "B. Sebab-akibat",
+          "C. Penambahan",
+          "D. Perbandingan"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "'Karena' digunakan untuk menjelaskan alasan atau sebab dari suatu peristiwa.",
+        "tingkat": "susah"
+      }
+    ]
+  },
+  {
+    "topik_id": "jenis",
+    "soal": [
+      {
+        "id": "j1",
+        "context": "Membaca buku dapat memperluas wawasan berdasarkan penelitian.",
+        "pertanyaan": "Kalimat tersebut termasuk jenis...",
+        "pilihan": [
+          "A. Opini",
+          "B. Fakta",
+          "C. Perintah",
+          "D. Pertanyaan"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Adanya keterangan 'berdasarkan penelitian' menunjukkan bahwa pernyataan tersebut didasarkan pada data nyata (fakta).",
+        "tingkat": "mudah"
+      },
+      {
+        "id": "j2",
+        "context": "Kita harus menjaga kebersihan lingkungan agar tetap sehat.",
+        "pertanyaan": "Kata 'harus' dalam kalimat tersebut menunjukkan sebuah...",
+        "pilihan": [
+          "A. Ajakan atau keharusan",
+          "B. Pertanyaan ragu-ragu",
+          "C. Perbandingan dua benda",
+          "D. Penjelasan arti kata"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Kata 'harus' digunakan untuk menekankan saran atau ajakan penulis kepada pembaca.",
+        "tingkat": "mudah"
+      },
+      {
+        "id": "j3",
+        "context": "Air merupakan kebutuhan utama bagi manusia untuk bertahan hidup.",
+        "pertanyaan": "Kalimat tersebut termasuk...",
+        "pilihan": [
+          "A. Kalimat opini",
+          "B. Kalimat tanya",
+          "C. Kalimat fakta",
+          "D. Kalimat perintah"
+        ],
+        "jawaban_benar": "C",
+        "penjelasan": "Pernyataan bahwa air adalah kebutuhan utama untuk hidup adalah kebenaran umum yang tidak bisa dibantah (fakta).",
+        "tingkat": "sedang"
+      },
+      {
+        "id": "j4",
+        "context": "Lingkungan yang bersih membuat suasana belajar menjadi nyaman.",
+        "pertanyaan": "Manakah yang merupakan antonim dari kata 'nyaman' pada kalimat tersebut?",
+        "pilihan": [
+          "A. Tenang",
+          "B. Damai",
+          "C. Gelisah",
+          "D. Sejuk"
+        ],
+        "jawaban_benar": "C",
+        "penjelasan": "Antonim adalah lawan kata. Lawan kata dari nyaman adalah gelisah atau tidak tenang.",
+        "tingkat": "sedang"
+      },
+      {
+        "id": "j5",
+        "context": "Menabung secara rutin dapat membantu seseorang hidup lebih hemat.",
+        "pertanyaan": "Sinonim dari kata 'hemat' adalah...",
+        "pilihan": [
+          "A. Boros",
+          "B. Irit",
+          "C. Mahal",
+          "D. Cukup"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Sinonim adalah persamaan kata. Hemat memiliki arti yang sama dengan irit.",
+        "tingkat": "susah"
+      }
+    ]
+  },
+  {
+    "topik_id": "analisis",
+    "soal": [
+      {
+        "id": "a1",
+        "context": "Bagi kami, komunikasi menjadi sarana cukup penting. Dengan komunikasi kami bisa mengungkapkan gagasan kepada orang lain. Menurut penelitian, komunikasi yang efektif dapat meningkatkan hubungan sosial.",
+        "pertanyaan": "Unsur fakta pada teks tersebut terdapat pada kalimat...",
+        "pilihan": [
+          "A. Bagi kami, komunikasi menjadi cukup penting",
+          "B. Dengan komunikasi kami bisa mengungkapkan gagasan",
+          "C. Menurut penelitian, komunikasi yang efektif...",
+          "D. Hubungan sosial akan tercipta"
+        ],
+        "jawaban_benar": "C",
+        "penjelasan": "Frasa 'Menurut penelitian' menandakan bahwa informasi selanjutnya diambil dari data hasil riset (fakta).",
+        "tingkat": "mudah"
+      },
+      {
+        "id": "a2",
+        "context": "Siswa yang rajin belajar akan memperoleh hasil yang baik.",
+        "pertanyaan": "Antonim dari kata 'baik' yang tepat adalah...",
+        "pilihan": [
+          "A. Bagus",
+          "B. Buruk",
+          "C. Hebat",
+          "D. Pintar"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Lawan kata (antonim) dari baik adalah buruk.",
+        "tingkat": "mudah"
+      },
+      {
+        "id": "a3",
+        "context": "Olahraga secara rutin dapat meningkatkan daya tahan tubuh sehingga tubuh menjadi lebih kuat.",
+        "pertanyaan": "Sinonim dari kata 'kuat' pada kalimat tersebut adalah...",
+        "pilihan": [
+          "A. Lemah",
+          "B. Kokoh",
+          "C. Kecil",
+          "D. Lambat"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Kata kokoh memiliki makna yang serupa dengan kuat, terutama untuk menggambarkan daya tahan.",
+        "tingkat": "sedang"
+      },
+      {
+        "id": "a4",
+        "context": "(1) Metode penelitiannya oleh para juri sudah dinilai baik.\n(2) Kreativitas yang dilakukan tinggi.\n(3) Ada beberapa keunggulan dari penelitian yang dilakukan itu.\n(4) Pada saat menyajikan hasil penelitiannya di depan dewan juri, kedua siswa Indonesia ini mendapat pujian.",
+        "pertanyaan": "Urutan teks yang tepat untuk membentuk paragraf eksposisi yang logis adalah...",
+        "pilihan": [
+          "A. (3)-(1)-(2)-(4)",
+          "B. (3)-(2)-(4)-(1)",
+          "C. (3)-(4)-(2)-(1)",
+          "D. (4)-(3)-(1)-(2)"
+        ],
+        "jawaban_benar": "A",
+        "penjelasan": "Dimulai dari pernyataan umum (3: Keunggulan penelitian), diikuti detail metode (1), kreativitas (2), dan hasil pujian (4).",
+        "tingkat": "sedang"
+      },
+      {
+        "id": "a5",
+        "context": "Belajar secara teratur membuat hasil belajar menjadi lebih maksimal.",
+        "pertanyaan": "Antonim dari kata 'maksimal' adalah...",
+        "pilihan": [
+          "A. Optimal",
+          "B. Terbaik",
+          "C. Minimal",
+          "D. Besa"
+        ],
+        "jawaban_benar": "C",
+        "penjelasan": "Maksimal berarti sebanyak-banyaknya, sedangkan minimal berarti sesedikit-sedikitnya.",
+        "tingkat": "susah"
+      }
+    ]
+  },
+  {
+    "topik_id": "menulis",
+    "soal": [
+      {
+        "id": "m1",
+        "context": "Makan makanan bergizi dapat menjaga tubuh tetap sehat.",
+        "pertanyaan": "Sinonim dari kata 'sehat' adalah...",
+        "pilihan": [
+          "A. Sakit",
+          "B. Kuat",
+          "C. Lemah",
+          "D. Lesu"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Dalam konteks kesehatan, tubuh yang sehat sering diidentikkan dengan tubuh yang kuat.",
+        "tingkat": "mudah"
+      },
+      {
+        "id": "m2",
+        "pertanyaan": "Dalam menulis teks eksposisi, fakta digunakan untuk...",
+        "pilihan": [
+          "A. Memperlemah argumen lawan",
+          "B. Memperkuat pendapat penulis",
+          "C. Mengaburkan masalah",
+          "D. Sebagai penutup saja"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Fakta adalah alat utama penulis eksposisi untuk membuat pendapatnya lebih kuat dan terpercaya.",
+        "tingkat": "mudah"
+      },
+      {
+        "id": "m3",
+        "pertanyaan": "Manakah urutan struktur yang paling logis saat menyusun draft teks eksposisi?",
+        "pilihan": [
+          "A. Simpulan -> Tesis -> Argumen",
+          "B. Argumen -> Simpulan -> Tesis",
+          "C. Tesis -> Argumen -> Simpulan",
+          "D. Tesis -> Simpulan -> Argumen"
+        ],
+        "jawaban_benar": "C",
+        "penjelasan": "Alur penulisan harus mengikuti struktur logis: Pengenalan masalah (Tesis), Penjelasan (Argumen), dan Penutup (Simpulan).",
+        "tingkat": "sedang"
+      },
+      {
+        "id": "m4",
+        "pertanyaan": "Apa antonim dari kata 'baik'?",
+        "pilihan": [
+          "A. Bagus",
+          "B. Hebat",
+          "C. Buruk",
+          "D. Pintar"
+        ],
+        "jawaban_benar": "C",
+        "penjelasan": "Lawan kata dari baik adalah buruk.",
+        "tingkat": "sedang"
+      },
+      {
+        "id": "m5",
+        "pertanyaan": "Data statistik dalam teks eksposisi paling tepat ditempatkan pada bagian...",
+        "pilihan": [
+          "A. Tesis",
+          "B. Argumentasi",
+          "C. Penegasan Ulang",
+          "D. Judul"
+        ],
+        "jawaban_benar": "B",
+        "penjelasan": "Data statistik adalah bentuk fakta yang digunakan dalam bagian argumentasi untuk mendukung tesis.",
+        "tingkat": "susah"
+      }
+    ]
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "id": "pengenalan",
+    "judul": "Apa itu Teks Eksposisi?",
+    "urutan": 1,
+    "xp_reward": 50,
+    "deskripsi": "Kenali dasar-dasar teks eksposisi dan tujuan penggunaannya dalam kehidupan sehari-hari.",
+    "konten": [
+      {
+        "tipe": "paragraf",
+        "teks": "Dalam kehidupan sehari-hari, kamu pasti sering membaca **artikel di internet**, mendengar **pidato**, atau melihat **iklan layanan masyarakat**. Tanpa sadar, kamu sudah berinteraksi dengan berbagai jenis teks. Salah satu yang paling sering kamu temui adalah **Teks Eksposisi**."
+      },
+      {
+        "tipe": "highlight",
+        "teks": "**Teks Eksposisi** adalah teks yang bertujuan memaparkan *informasi, pengetahuan, atau pendapat penulis* secara jelas, lugas, dan didukung oleh **fakta** yang dapat dipertanggungjawabkan."
+      },
+      {
+        "tipe": "paragraf",
+        "teks": "Berbeda dengan teks narasi yang bercerita atau teks deskripsi yang menggambarkan, teks eksposisi fokus pada penyampaian informasi secara **logis dan terstruktur**. Tujuan utamanya adalah agar pembaca memahami suatu topik dengan lebih mendalam, *bukan untuk menghibur atau memengaruhi emosi*."
+      },
+      {
+        "tipe": "paragraf",
+        "teks": "Teks eksposisi dapat disampaikan dalam dua bentuk: **lisan dan tulisan**. Contoh bentuk lisan adalah *ceramah, pidato, dan presentasi*. Sementara bentuk tulisannya bisa berupa *artikel ilmiah, laporan, editorial, dan esai*."
+      },
+      {
+        "tipe": "contoh",
+        "judul": "Tujuan Teks Eksposisi",
+        "teks": "1. Menambah **wawasan dan pengetahuan** pembaca\n2. Menjelaskan suatu **proses atau kejadian** secara rinci\n3. Memaparkan pendapat yang **didukung fakta**\n4. Membantu pembaca berpikir secara **kritis dan logis**\n5. Menyampaikan informasi secara **objektif dan jelas**"
+      },
+      {
+        "tipe": "paragraf",
+        "teks": "Ciri paling utama teks eksposisi adalah kehadiran **fakta dan data**. Penulis *tidak boleh sekadar beropini* tanpa bukti. Setiap pernyataan harus bisa dibuktikan, entah melalui **data statistik**, **kutipan ahli**, atau **hasil penelitian**."
+      },
+      {
+        "tipe": "contoh",
+        "judul": "Ciri Umum Teks Eksposisi",
+        "teks": "- **Informatif**: menyampaikan pengetahuan atau data\n- **Faktual**: berdasarkan kenyataan, bukan khayalan\n- **Objektif**: tidak memihak satu sudut pandang\n- **Logis**: penjelasan tersusun secara teratur\n- **Bahasa baku**: sesuai standar PUEBI/KBBI"
+      }
+    ]
+  },
+  {
+    "id": "struktur",
+    "judul": "Struktur Teks Eksposisi",
+    "urutan": 2,
+    "xp_reward": 80,
+    "deskripsi": "Pelajari tiga bagian utama teks eksposisi: tesis, argumentasi, dan penegasan ulang.",
+    "konten": [
+      {
+        "tipe": "paragraf",
+        "teks": "Seperti sebuah bangunan yang memiliki **pondasi, dinding, dan atap**, teks eksposisi juga memiliki struktur yang teratur. Setiap bagian memiliki fungsi yang berbeda dan saling mendukung. Memahami struktur ini akan membantu kamu **menganalisis maupun menulis** teks eksposisi dengan lebih baik."
+      },
+      {
+        "tipe": "struktur_visual",
+        "bagian": [
+          {
+            "label": "Tesis",
+            "nama": "Pernyataan Pendapat",
+            "deskripsi": "Bagian pembuka yang berisi pandangan atau pendapat penulis tentang suatu topik. Tesis berfungsi sebagai **'peta jalan'** yang mengarahkan seluruh isi teks.",
+            "contoh": "\"Penggunaan gadget yang berlebihan berdampak negatif bagi perkembangan anak.\"",
+            "warna": "green"
+          },
+          {
+            "label": "Argumentasi",
+            "nama": "Deretan Fakta & Alasan",
+            "deskripsi": "Bagian inti yang berisi fakta, data, atau contoh nyata yang mendukung tesis. Semakin **kuat argumentasi**, semakin meyakinkan teks tersebut.",
+            "contoh": "\"Menurut penelitian WHO, penggunaan gadget berlebih menurunkan konsentrasi belajar sebesar 40%.\"",
+            "warna": "amber"
+          },
+          {
+            "label": "Penegasan Ulang",
+            "nama": "Simpulan & Rekomendasi",
+            "deskripsi": "Bagian penutup yang menegaskan kembali pendapat penulis. Sering disertai **saran atau ajakan** kepada pembaca.",
+            "contoh": "\"Oleh karena itu, orang tua perlu membatasi waktu penggunaan gadget anak.\"",
+            "warna": "blue"
+          }
+        ]
+      },
+      {
+        "tipe": "paragraf",
+        "teks": "*Penting untuk diingat* bahwa urutan ini tidak selalu kaku, namun **Tesis selalu ada di awal** dan **Penegasan Ulang selalu di akhir**."
+      },
+      {
+        "tipe": "contoh",
+        "judul": "Contoh Analisis Struktur: Manajemen Sampah",
+        "teks": "**TESIS**: \"Sampah bisa menjadi sumber pendapatan jika dikelola dengan baik.\"\n\n**ARGUMENTASI**: \"Warga Pasar Ciputat berhasil mengolah sampah menjadi kompos dan pupuk cair.\"\n\n**PENEGASAN ULANG**: \"Pengolahan sampah memerlukan keterlibatan warga dan peran pemerintah.\""
+      },
+      {
+        "tipe": "highlight",
+        "teks": "**Tips**: Ketika membaca, cari dulu **kalimat utama** di paragraf pertama — itulah tesisnya. Kemudian identifikasi fakta-fakta di tengah (argumentasi) dan simpulan di akhir."
+      }
+    ]
+  },
+  {
+    "id": "kebahasaan",
+    "judul": "Ciri Kebahasaan Teks Eksposisi",
+    "urutan": 3,
+    "xp_reward": 80,
+    "deskripsi": "Kenali ciri-ciri bahasa yang membuat teks eksposisi mudah dikenali: kata teknis, konjungsi, dan lebih.",
+    "konten": [
+      {
+        "tipe": "paragraf",
+        "teks": "Selain struktur, teks eksposisi memiliki ciri kebahasaan tersendiri yang membedakannya dari jenis teks lain. Dengan mengenali ciri-ciri ini, kamu bisa lebih mudah mengidentifikasi apakah sebuah teks termasuk eksposisi atau bukan."
+      },
+      {
+        "tipe": "highlight",
+        "teks": "6 Ciri Kebahasaan Teks Eksposisi: (1) Kata Teknis, (2) Konjungsi Kausalitas, (3) Kata Kerja Mental, (4) Kata Hubung Urutan, (5) Bahasa Baku, (6) Kalimat Persuasif"
+      },
+      {
+        "tipe": "contoh",
+        "judul": "1. Kata Teknis (Istilah Bidang Ilmu)",
+        "teks": "Kata teknis adalah istilah khusus dari suatu bidang ilmu yang digunakan untuk memberikan informasi yang tepat dan spesifik.\n\nContoh:\n- Bidang kesehatan: hipertensi, diabetes melitus, imunitas\n- Bidang lingkungan: deforestasi, emisi karbon, ekosistem\n- Bidang ekonomi: inflasi, deflasi, likuiditas\n\nKalimat contoh: \"Deforestasi hutan Amazon telah menyebabkan penurunan biodiversitas secara signifikan.\""
+      },
+      {
+        "tipe": "contoh",
+        "judul": "2. Konjungsi Kausalitas (Sebab-Akibat)",
+        "teks": "Konjungsi kausalitas menghubungkan kalimat sebab dengan akibatnya.\n\nContoh konjungsi: karena, sehingga, oleh karena itu, akibatnya, dengan demikian, maka\n\nContoh kalimat: \"Polusi udara terus meningkat karena banyaknya kendaraan bermotor, sehingga kualitas udara di kota-kota besar menjadi semakin buruk.\""
+      },
+      {
+        "tipe": "contoh",
+        "judul": "3. Kata Kerja Mental",
+        "teks": "Kata kerja mental mengungkapkan proses berpikir, perasaan, atau persepsi, bukan tindakan fisik.\n\nContoh: menganggap, memahami, menganalisis, menilai, meyakini, berpendapat, memprediksi\n\nContoh kalimat: \"Para ahli meyakini bahwa perubahan iklim disebabkan oleh aktivitas manusia yang tidak terkendali.\""
+      },
+      {
+        "tipe": "contoh",
+        "judul": "4. Kata Hubung Urutan & Penegasan",
+        "teks": "Urutan: pertama, kedua, selanjutnya, kemudian, terakhir, akhirnya\nPenegasan: dengan demikian, sebagai kesimpulan, berdasarkan uraian di atas, oleh sebab itu\nPertentangan: namun, tetapi, akan tetapi, meskipun demikian\nPenambahan: selain itu, di samping itu, bahkan, lebih lanjut"
+      },
+      {
+        "tipe": "paragraf",
+        "teks": "Bahasa baku adalah ciri wajib teks eksposisi. Ini berarti penulisan harus sesuai dengan Pedoman Umum Ejaan Bahasa Indonesia (PUEBI) dan penggunaan kata harus sesuai Kamus Besar Bahasa Indonesia (KBBI). Hindari kata-kata gaul, singkatan tidak baku, atau bahasa informal."
+      }
+    ]
+  },
+  {
+    "id": "jenis",
+    "judul": "Jenis-Jenis Teks Eksposisi",
+    "urutan": 4,
+    "xp_reward": 100,
+    "deskripsi": "Ada 6 jenis teks eksposisi yang masing-masing memiliki cara penyampaian berbeda.",
+    "konten": [
+      {
+        "tipe": "paragraf",
+        "teks": "Teks eksposisi tidak selalu berbentuk sama. Bergantung pada cara penyampaian informasinya, teks eksposisi dibagi menjadi enam jenis. Mengenali jenisnya akan membantu kamu memahami dan menganalisis teks dengan lebih akurat."
+      },
+      {
+        "tipe": "contoh",
+        "judul": "1. Eksposisi Definisi",
+        "teks": "Menjelaskan arti atau pengertian suatu istilah atau konsep secara lengkap.\n\nContoh: \"Fotosintesis adalah proses pembuatan makanan yang dilakukan oleh tumbuhan hijau menggunakan sinar matahari, air, dan karbon dioksida untuk menghasilkan glukosa dan oksigen.\""
+      },
+      {
+        "tipe": "contoh",
+        "judul": "2. Eksposisi Proses",
+        "teks": "Menjelaskan bagaimana sesuatu terjadi atau cara melakukan sesuatu, tahap demi tahap.\n\nContoh: \"Proses pembuatan tempe dimulai dengan pemilihan kedelai berkualitas, kemudian perendaman selama 12 jam, pengupasan kulit, pemasakan, penirisan, penambahan ragi, dan akhirnya pembungkusan selama 2 hari fermentasi.\""
+      },
+      {
+        "tipe": "contoh",
+        "judul": "3. Eksposisi Ilustrasi",
+        "teks": "Menggunakan perbandingan atau analogi untuk menjelaskan suatu konsep yang abstrak agar lebih mudah dipahami.\n\nContoh: \"Cara kerja jantung mirip seperti pompa air. Jantung memompa darah ke seluruh tubuh seperti pompa mendorong air ke seluruh pipa rumah.\""
+      },
+      {
+        "tipe": "contoh",
+        "judul": "4. Eksposisi Perbandingan",
+        "teks": "Membandingkan dua hal atau lebih untuk menunjukkan persamaan dan perbedaannya.\n\nContoh: \"Kurikulum 2013 dan Kurikulum Merdeka memiliki perbedaan mendasar. Jika Kurikulum 2013 menekankan pembelajaran tematik dan saintifik, Kurikulum Merdeka memberikan keleluasaan lebih bagi sekolah dan guru dalam merancang pembelajaran.\""
+      },
+      {
+        "tipe": "contoh",
+        "judul": "5. Eksposisi Laporan",
+        "teks": "Menyampaikan hasil pengamatan, penelitian, atau studi secara faktual dan terperinci.\n\nContoh: \"Berdasarkan survei Badan Pusat Statistik tahun 2023, tingkat literasi digital remaja Indonesia mencapai 67%, meningkat 12% dibandingkan tahun sebelumnya. Peningkatan ini terjadi seiring dengan bertambahnya akses internet di daerah pedesaan.\""
+      },
+      {
+        "tipe": "contoh",
+        "judul": "6. Eksposisi Pertentangan",
+        "teks": "Menyajikan dua pendapat atau sudut pandang yang bertentangan tentang suatu topik.\n\nContoh: \"Di satu sisi, media sosial memberikan kemudahan komunikasi dan akses informasi. Di sisi lain, media sosial juga membawa dampak negatif seperti penyebaran hoaks, cyberbullying, dan kecanduan.\""
+      },
+      {
+        "tipe": "highlight",
+        "teks": "Cara mudah membedakan jenis: tanya diri sendiri — apakah teks ini menjelaskan arti? (definisi), menjelaskan cara/tahapan? (proses), membandingkan? (perbandingan), memberikan analogi? (ilustrasi), melaporkan hasil? (laporan), atau menyajikan dua sudut pandang? (pertentangan)."
+      }
+    ]
+  },
+  {
+    "id": "analisis",
+    "judul": "Analisis Teks Eksposisi",
+    "urutan": 5,
+    "xp_reward": 120,
+    "deskripsi": "Latih kemampuanmu mengidentifikasi struktur dan ciri kebahasaan dari teks eksposisi nyata.",
+    "konten": [
+      {
+        "tipe": "paragraf",
+        "teks": "Setelah memahami teori, saatnya berlatih menganalisis teks eksposisi secara langsung. Analisis teks artinya kamu membedah teks untuk menemukan strukturnya (tesis, argumentasi, penegasan ulang) dan ciri kebahasaannya."
+      },
+      {
+        "tipe": "highlight",
+        "teks": "Teks untuk Dianalisis: \"Dampak Penggunaan Gadget Berlebihan pada Remaja\""
+      },
+      {
+        "tipe": "contoh",
+        "judul": "Tesis (Paragraf 1)",
+        "teks": "Di era digital ini, gadget telah menjadi bagian tak terpisahkan dari kehidupan remaja. Namun, penggunaan gadget yang berlebihan dan tidak terkontrol justru membawa dampak negatif yang serius bagi perkembangan fisik dan mental remaja."
+      },
+      {
+        "tipe": "contoh",
+        "judul": "Argumentasi (Paragraf 2-4)",
+        "teks": "Paragraf 2 — Dampak Fisik:\nPertama, penggunaan gadget berlebihan berdampak pada kesehatan fisik. Paparan cahaya biru layar gadget dapat merusak sel retina mata dan menyebabkan mata lelah. Menurut American Academy of Ophthalmology, remaja yang menatap layar lebih dari 6 jam per hari berisiko 30% lebih tinggi mengalami rabun jauh.\n\nParagraf 3 — Dampak Mental:\nKedua, kecanduan gadget berdampak pada kesehatan mental. Sebuah studi dari Universitas Indonesia (2022) menunjukkan bahwa 65% remaja pengguna media sosial intensif mengalami kecemasan sosial dan rendah diri karena terus-menerus membandingkan diri dengan konten di media sosial.\n\nParagraf 4 — Dampak Akademik:\nKetiga, gadget memengaruhi prestasi belajar. Notifikasi yang terus-menerus mengganggu konsentrasi belajar dan mengurangi waktu belajar yang efektif. Akibatnya, nilai akademis cenderung menurun pada remaja yang menghabiskan lebih dari 4 jam sehari untuk bermain game atau media sosial."
+      },
+      {
+        "tipe": "contoh",
+        "judul": "Penegasan Ulang (Paragraf 5)",
+        "teks": "Berdasarkan berbagai dampak yang telah diuraikan, sangat jelas bahwa penggunaan gadget yang tidak terkontrol merugikan remaja. Oleh karena itu, diperlukan kerja sama antara orang tua, sekolah, dan remaja itu sendiri untuk menetapkan batasan waktu penggunaan gadget yang sehat. Remaja yang bijak adalah mereka yang bisa memanfaatkan teknologi tanpa tergantung padanya."
+      },
+      {
+        "tipe": "paragraf",
+        "teks": "Dari teks di atas, kita bisa menemukan berbagai ciri kebahasaan: konjungsi kausalitas (\"sehingga\", \"akibatnya\", \"oleh karena itu\"), kata hubung urutan (\"pertama\", \"kedua\", \"ketiga\"), kata kerja mental (\"menunjukkan\", \"mengalami\", \"memengaruhi\"), dan data faktual (statistik dari penelitian)."
+      },
+      {
+        "tipe": "highlight",
+        "teks": "Langkah analisis teks eksposisi: (1) Baca seluruh teks, (2) Tandai kalimat utama tiap paragraf, (3) Kelompokkan ke dalam tesis/argumentasi/penegasan, (4) Cari ciri kebahasaan (konjungsi, kata teknis, dll), (5) Tentukan jenis eksposisinya."
+      }
+    ]
+  },
+  {
+    "id": "menulis",
+    "judul": "Menulis Teks Eksposisi",
+    "urutan": 6,
+    "xp_reward": 150,
+    "deskripsi": "Panduan langkah-langkah menulis teks eksposisi yang baik dari nol hingga selesai.",
+    "konten": [
+      {
+        "tipe": "paragraf",
+        "teks": "Menulis teks eksposisi yang baik bukan sekadar merangkai kalimat panjang. Ada proses yang perlu kamu ikuti agar hasil tulisanmu informatif, logis, dan meyakinkan. Berikut adalah panduan lengkap menulis teks eksposisi langkah demi langkah."
+      },
+      {
+        "tipe": "contoh",
+        "judul": "Langkah 1: Pilih Topik yang Tepat",
+        "teks": "Pilih topik yang:\n- Kamu ketahui atau tertarik untuk diteliti\n- Bersifat faktual dan dapat diverifikasi\n- Relevan dengan kehidupan sehari-hari\n- Tidak terlalu luas (fokus pada satu aspek)\n\nContoh topik bagus: \"Dampak Kurang Tidur pada Konsentrasi Belajar Remaja\"\nContoh topik terlalu luas: \"Masalah Remaja di Indonesia\""
+      },
+      {
+        "tipe": "contoh",
+        "judul": "Langkah 2: Kumpulkan Data & Fakta",
+        "teks": "Sebelum menulis, riset terlebih dahulu:\n- Baca artikel ilmiah atau berita terpercaya\n- Cari data statistik dari lembaga resmi (BPS, WHO, Kemendikbud)\n- Catat kutipan dari ahli atau peneliti\n- Buat daftar fakta yang mendukung tesismu\n\nIngat: teks eksposisi yang kuat selalu didukung data konkret!"
+      },
+      {
+        "tipe": "contoh",
+        "judul": "Langkah 3: Buat Kerangka (Outline)",
+        "teks": "Contoh kerangka untuk topik \"Manfaat Olahraga Pagi bagi Pelajar\":\n\nTESIS: Olahraga pagi meningkatkan kualitas belajar pelajar\n\nARGUMENTASI:\n- Poin 1: Meningkatkan konsentrasi (data penelitian)\n- Poin 2: Memperbaiki mood dan mengurangi stres (fakta)\n- Poin 3: Meningkatkan stamina untuk belajar seharian (contoh)\n\nPEGASAN ULANG: Ajakan untuk membiasakan olahraga pagi"
+      },
+      {
+        "tipe": "contoh",
+        "judul": "Langkah 4: Tulis Draft Pertama",
+        "teks": "Tips menulis draft:\n- Mulai dengan kalimat pembuka yang menarik (fakta mengejutkan, pertanyaan retoris, atau statistik)\n- Tulis mengalir, jangan terlalu fokus pada kesalahan\n- Gunakan konjungsi kausalitas untuk menghubungkan ide\n- Setiap paragraf hanya membahas SATU gagasan utama\n- Akhiri setiap argumen dengan kalimat simpulan singkat"
+      },
+      {
+        "tipe": "contoh",
+        "judul": "Langkah 5: Revisi & Penyuntingan",
+        "teks": "Checklist revisi teks eksposisi:\n[v] Apakah tesis sudah jelas di paragraf pertama?\n[v] Apakah setiap argumen didukung fakta/data?\n[v] Apakah urutan logis dan mudah diikuti?\n[v] Apakah penegasan ulang merangkum semua poin?\n[v] Apakah ejaan dan tata bahasa sudah benar (PUEBI)?\n[v] Apakah ada kata-kata tidak baku yang perlu diganti?\n[v] Apakah teks sudah cukup panjang (minimal 4 paragraf)?"
+      },
+      {
+        "tipe": "highlight",
+        "teks": "Kalimat pembuka yang kuat adalah kunci! Coba awali dengan: fakta mengejutkan (\"Setiap tahun, 8 juta ton sampah plastik mengalir ke laut\"), pertanyaan retoris (\"Pernahkah kamu menyadari betapa berharganya tidur yang cukup?\"), atau kontradiksi yang menarik (\"Meski dianggap membuang waktu, bermain ternyata penting untuk perkembangan anak\")."
+      }
+    ]
+  }
+]
