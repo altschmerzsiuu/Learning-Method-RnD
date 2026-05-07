@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
-export default defineConfig({
-  base: '/Learning-Method-RnD/',
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/Learning-Method-RnD/' : '/',
   plugins: [
     react(),
     tailwindcss(),
@@ -13,4 +13,4 @@ export default defineConfig({
     host: true,
     cors: true,
   }
-})
+}))
